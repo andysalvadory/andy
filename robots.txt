@@ -1,0 +1,21 @@
+# If you are regularly crawling WordPress.com sites, please use our firehose to receive real-time push updates instead.
+# Please see https://developer.wordpress.com/docs/firehose/ for more details.
+
+Sitemap: https://andy-salvador.com/sitemap.xml
+Sitemap: https://andy-salvador.com/news-sitemap.xml
+
+User-agent: *
+Allow: /*
+Allow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-login.php
+Allow: /wp-signup.php
+Allow: /press-this.php
+Allow: /remote-login.php
+Allow: /activate/
+Allow: /cgi-bin/
+Allow: /mshots/v1/
+Allow: /next/
+Allow: /public.api/
+
+# This file was generated on Thu, 08 Oct 2020 12:03:51 +0000
